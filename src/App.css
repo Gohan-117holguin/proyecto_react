@@ -1,38 +1,55 @@
 .App {
   text-align: center;
+  background-color: #d3d3d3;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.botonP {
+  cursor: pointer;
+  padding: 15px 25px;
+  background-color: #8a2be2;
+  color: #000000;
+  margin: 15px 25px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all ease-in-out 0.35s;
+  border-radius: 10px;
+  border: 2px solid #000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.botonP:hover{
+  background-color: #000000;
+  color: #8a2be2;
+  border: 2px solid #0011ff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+img{
+  cursor: pointer;
+  transition: all ease-out 0.45s;
+  object-fit: contain;
+  height: 450px;
+  border: #000 2px solid;
+  border-radius: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+img:hover{
+  opacity: 70%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.botonS {
+  cursor: pointer;
+  padding: 15px 25px;
+  background-color: #2b99e2;
+  color: black;
+  margin: 17px 27px;
+  font-size: 17px;
+  font-weight: 500;
+  transition: all ease-in-out 0.35s;
+  border-radius: 15px;
+  border: 1px solid #000;
+}
+
+.botonS:hover{
+  background-color: #7d0081;
+  color: #2b99e2;
+  border: 3px solid #000874;
 }
