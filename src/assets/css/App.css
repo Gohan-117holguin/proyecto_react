@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
+
+*{
+  font-family: 'DM Mono', monospace;
+}
+
+body {
+  background-color: #d3d3d3;
+  height: 100vh;
+  padding: 50px 0;
+}
+
+header{
+  text-align: center;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+}
+
+.botonP {
+  cursor: pointer;
+  padding: 15px 25px;
+  background-color: #8a2be2;
+  color: #000000;
+  margin: 15px 25px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all ease-in-out 0.35s;
+  border-radius: 1em;
+  border: none;
+}
+
+.botonP:hover{
+  background-color: #000000;
+  color: #8a2be2;
+}
+
+img{
+  object-fit: contain;
+  height: 450px;
+  margin: 10px;
+}
+
+.imagen1{
+  cursor: pointer;
+  transition: all ease-out 0.45s;
+  border: #000000 2px solid;
+  border-radius: 15px;
+}
+
+.imagen1:hover{
+  opacity: 70%;
+  height: 500px;
+}
+
+.seccion_contador{
+  text-align: center;
+  width: 100%;
+  margin: 45px 0;
+}
+
+.span{
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 2px solid #6311af;
+}
+
+
+.boton_contador{
+  border-radius: 1em;
+  color: #000;
+  background-color: #6311af;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 15px 25px;
+  margin: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.boton_contador:hover{
+  color: #6311af;
+  background-color: #000;
+  transition: all ease-out 0.45s;
+}
+
+.about_us{
+  text-align: center;
+}
+
+.page_not{
+  text-align: center;
+}
+
+.page_not h2{
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.page_not p{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.fas{
+  font-size: larger;
+  margin: 5px;
+}
+
+.fa-triangle-exclamation{
+  color: rgb(255, 196, 0);
+}
+
+footer{
+  text-align: center;
+}
+
+.botonS {
+  cursor: pointer;
+  padding: 15px 25px;
+  background-color: #2b99e2;
+  color: #000000;
+  margin: 17px 27px;
+  font-size: 17px;
+  font-weight: 500;
+  transition: all ease-in-out 0.35s;
+  border-radius: 1em;
+  border: none;
+}
+
+.botonS:hover{
+  background-color: #000000;
+  color: #2b99e2;
+}
+
+.form{
+  margin: 25px 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 25px;
+}
+
+.label{
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.input_form{
+  background: transparent;
+  border: none;
+  height: 45px;
+  padding: 5px;
+  transition: all ease-in-out 0.35s;
+  border-bottom: 2px solid #000;
+  outline: none;
+}
+
+.input_form:hover{
+  border-bottom: 2px solid #8a2be2;
+}
+
+.textarea_form{
+  background: transparent;
+  min-width: 60%;
+  max-width: 100%;
+  border: none;
+  min-height: 70px;
+  max-height: 105px;
+  padding: 9px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all ease 0.3s;
+  border-bottom: 2px solid #000;
+  outline: none;
+  margin-top: 5px;
+}
+
+.textarea_form:hover{
+  border-bottom: 2px solid #8a2be2;
+}
+
+.boton_form{
+  margin-top: 25px;
+  max-width: fit-content;
+  padding: 15px 25px;
+  color: #000;
+  background-color: #8a2be2;
+  border-radius: 1em;
+  border: none;
+  font-family: 'Azeret Mono', monospace;
+  font-weight: 500;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all ease-in-out 0.35s;
+}
+
+.boton_form:hover{
+  background-color: #000000;
+  color: #8a2be2;;
+}
+
+.img__counter.active{
+  filter: grayscale(80%);
+  transition: all ease-in-out 0.35s;
+}
+
+.img__counter.inactive{
+  filter: grayscale(0%);
+  transition: all ease-in-out 0.35s;
+}
+
+.seccion__contador{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.img__card.show{
+  filter: grayscale(80%);
+  transition: all ease-in-out 0.35s;
+}
+
+.img__card.none{
+  filter: grayscale(0%);
+  transition: all ease-in-out 0.35s;
+}
+
+#boton{
+  background-color: #2b99e2;
+  color: aliceblue;
+}
+
+.btnActivo{
+  filter: grayscale(80%);
+  transition: all ease-in-out 0.35s;
+}
+
+.btnDesactivo{
+  filter: grayscale(0%);
+  transition: all ease-in-out 0.35s;
+}

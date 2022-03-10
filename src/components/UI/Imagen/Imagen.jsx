@@ -1,11 +1,10 @@
 import React from 'react';
-import imagen1 from '../../../assets/img/1.jpg' 
 
-export const Imagen = () => {
+export const Imagen = ({clase, ruta, id}) => {
     return(
         <>
             <figure>
-                <img src={imagen1} alt=''></img>
+                <img className={clase} src={ruta} id={id} alt=''></img>
             </figure>
         </>
     );

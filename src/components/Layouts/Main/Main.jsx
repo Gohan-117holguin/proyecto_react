@@ -1,10 +1,10 @@
 import React from 'react'
-import { Imagen } from '../../UI/Imagen/Imagen'
+import { ContImg } from '../ContImg/ContImg'
 
 export const Main = () => {
     return (
-        <>
-            <Imagen />
-        </>
-    );
-};
+        <main>
+            <ContImg />
+        </main>
+    )
+}
